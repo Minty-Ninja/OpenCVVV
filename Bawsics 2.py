@@ -5,7 +5,7 @@ c = cv2.imread("Crazy Cat.jpeg")
 m = cv2.imread("Crazy Monkey.jpeg")
 
 #Arithmetic Operations on Image - Weighted Sum : Mix the weight of the 2 images
-x = cv2.addWeighted(c, 0.5, m,0.4 , 0) #0.5, o.4 etc are weight given 
+x = cv2.addWeighted(c, 0.5, m,0.4 , 0) #0.5, 0.4 etc are weight given 
 cv2.imshow("K", x)
 cv2.waitKey(0)
 cv2.destroyAllWindows()

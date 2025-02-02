@@ -7,7 +7,7 @@ x= cv2.imread("Coloured image.jpg", cv2.IMREAD_COLOR)
 #SHow the image
 cv2.imshow("Coloured Image", x)
 
-cv2.waitKey(0)
+cv2.waitKey(0) #Used to wait until a key is pressed
 cv2.destroyAllWindows()
 
 import cv2
